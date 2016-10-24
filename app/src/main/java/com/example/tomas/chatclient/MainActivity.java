@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new createSocket()).start();
     }
 
-    // TODO Noget med en socket.
+    // Noget med en Socket.
     class createSocket implements Runnable{
         @Override
         public void run() {
